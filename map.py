@@ -4,7 +4,7 @@ class Map:
 
     # Define constructor
     def __init__(self, height, width):
-        self.dimensions = {height,"width":width}
+        self.dimensions = {"height":height,"width":width}
         for i in range(height*width):
             self.map.append(Cell())
     #self.map = [Cell() for i in range(height*width) ]
